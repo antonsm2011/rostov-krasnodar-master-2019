@@ -10,8 +10,17 @@
         "$workspaceRoot/features"
     ],
     "КлиентыТестирования": [
+        {
+            "Имя": "ПроверкаОбновления",
+            "ПутьКИнфобазе": "File=C:/Bases/MyBase",
+            "ДопПараметры": "/NАдмин",
+            "ТипКлиента": "Тонкий",
+            "ИмяКомпьютера": "localhost",
+            "ПортЗапускаТестКлиента": "48000",
+            "АктивизироватьСтроку": "Ложь"
+        }
     ],
-    
+
     "ЗагрузитьСценарии": true,
     "ВыполнитьСценарии": "Истина",
     "ЗавершитьРаботуСистемы": "Истина",
@@ -24,15 +33,15 @@
     "ДелатьЛогВыполненияСценариевВТекстовыйФайл": "Истина",
     "СоздаватьПодкаталогВКаталогеAllureДляЭтойСборки": "Истина",
     "DebugLog": false,
-    
+
     "ВыгружатьСтатусВыполненияСценариевВФайл": true,
     "ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев": "$workspaceRoot/./build/reports/BuildStatus.log",
-    
+
     "КаталогOutputAllure": "$workspaceRoot/./build/reports/allurereport",
     "КаталогOutputAllureБазовый": "$workspaceRoot/./build/reports/allurereport",
     "КаталогOutputjUnit": "$workspaceRoot/./build/reports/junitreport",
     "КаталогOutputCucumberJson": "$workspaceRoot/./build/reports/cucumber",
-    
+
     "ДелатьСкриншотПриВозникновенииОшибки": false,
     "КаталогOutputСкриншоты": "$workspaceRoot/./build/reports/ScreenShots",
     "ИмяФайлаЛогВыполненияСценариев": "$workspaceRoot/./build/reports/log.txt",
